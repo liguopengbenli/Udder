@@ -15,6 +15,14 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello Git!")
+            Image(systemName: "heart.fill")
+                .font(.system(size: 50))
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
+            Image(systemName: "heart.fill")
+                .font(.system(size: 50))
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
         }
         .padding()
     }
